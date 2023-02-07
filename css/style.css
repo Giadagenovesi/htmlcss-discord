@@ -52,6 +52,17 @@ body {
     background-color: #F6F6F6;
 }
 
+.divider {
+    fill: #F6F6F6;
+    margin-bottom: -5px;
+}
+
+.upside-down {
+    transform: rotate(180deg);
+}
+
+
+
 /* HEADER */
 .header-top {
     height: 70px;
