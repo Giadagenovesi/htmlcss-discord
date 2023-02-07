@@ -25,14 +25,16 @@ body {
     align-items: center;
 }
 
+.logo-image {
+    width: 80%;
+ }
+
 .btn {
     height: 2rem;
     text-decoration: none;
     line-height: 2rem;
     padding: .6rem;
     border-radius: 30px;
-    /* DEBUG */
-    background-color: #228b22;
 }
 
 .violet {
@@ -57,21 +59,17 @@ body {
 .header-top {
     height: 70px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     background-color: #255EE9;
     color: white;
     font-size: .8rem;
 }
 
-.logo {
-    padding-top: 1rem; 
-}
-
 .header-container {
     display: flex;
     justify-content: space-between;
-    line-height: 2rem;
+    align-items: center;
     width: 900px;
 }
 
@@ -85,17 +83,12 @@ body {
     color: inherit;
 }
 
-/* .login a {
-    text-decoration: none;
-} */
-
 .navigation-menu {
     flex-grow: 2;
 }
 
 .login {
     text-align: right;
-    padding-top: 1rem;
 }
 
 /* Banner */
@@ -193,25 +186,34 @@ section {
 .footer {
     background-color:#23272A;
     color: white;
-    /* DEBUG */
-    height: 100px;
+
 }
 
 .footer-top {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    /* DEBUG */
-    background-color: #23272a;
-    border-bottom: 3px solid #d3d3d3;
+    padding: 3rem 2rem;
 }
 
 .social {
     width: 300px;
+    font-size: 0.7rem;
+}
 
-    /* DEBUG */
-    background-color: #f08080;
-    height: 350px;
+.social h2 {
+    color: #7289DA;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.social img {
+    width: 15px;
+}
+
+.fa-brands {
+    margin: 1rem 1rem 0 0;
+    font-size: 1rem;
 }
 
 .footer-nav li{
@@ -221,15 +223,12 @@ section {
 
 .footer-nav {
     width: 150px;
-    padding: ;
     font-size: 0.7rem;
 }
 
 li> h3 {
     color: #7289DA;
 }
-
-
  /* footer bottom */
 
 .footer-bottom {
@@ -237,17 +236,7 @@ li> h3 {
     justify-content: space-between;
     align-items: center;
     width: 900px;
-
-    /* DEBUG */
-    height: 80px;
-    background-color: #7fffd4;
-}
-
-.botton {
-    /* DEBUG */
-    text-align: center;
-    line-height: 40px;
-    background-color: #ffb6c1;
-    height: 40px;
-    width: 60px;
+    padding: 1rem 0 2rem 0;
+    border-top: 1px solid  #7289DA;
+    font-size: .8rem;
 }
