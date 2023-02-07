@@ -61,8 +61,6 @@ body {
     transform: rotate(180deg);
 }
 
-
-
 /* HEADER */
 .header-top {
     height: 70px;
@@ -182,10 +180,6 @@ section {
 .special-title {
     font-size: 1.2rem;
     margin-bottom: 2rem;
-    /* background-image: url(../img/stars.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center; */
 }
 
 /* FOOTER */
@@ -205,6 +199,7 @@ section {
 .social {
     width: 300px;
     font-size: 0.7rem;
+    color: white;
 }
 
 .social h2 {
@@ -220,11 +215,17 @@ section {
 .fa-brands {
     margin: 1rem 1rem 0 0;
     font-size: 1rem;
+    color: white;
 }
 
 .footer-nav li{
     list-style-type: none;
     margin-top: 0.8rem;
+}
+
+.footer-nav a {
+    color: inherit;
+    text-decoration: none;
 }
 
 .footer-nav {
