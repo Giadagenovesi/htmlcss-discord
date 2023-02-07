@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+img {
+    max-width: 100%;
+}
+
 /* DEBUG */
 .black-border {
      border: 1px dashed black;
@@ -31,8 +35,11 @@ body {
 .btn {
     height: 2rem;
     line-height: 2rem;
-    padding: .4rem;
+    padding: .6rem;
+    border-radius: 30px;
+    /* DEBUG */
     background-color: #228b22;
+    
 }
 
 .violet {
@@ -44,10 +51,15 @@ body {
     background-color: white;
     color: black;
 }
+
+.black {
+    background-color:#23272A;
+    color: white;
+}
 /* HEADER */
 
-.header {
-    height: 80px;
+.header-top {
+    height: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -93,8 +105,29 @@ body {
 
 /* Banner */
 .banner {
-    /* DEBUG */
-    background-color: #00008b;
+   background-image: url(../img/jumbo.png);
+   background-size: 100% 100%;
+   color: white;
+}
+
+.banner-container {
+    width: 600px;
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+.header-title {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.banner-container a {
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+.btn-container {
+    margin-top: 2rem
 }
    
 /* MAIN */
@@ -110,13 +143,6 @@ body {
 .section {
      /* DEBUG */
      height: 400px;
-}
-
-.fucsia-container {
-    width: 700px;
-    /* DEBUG */
-    background-color: #ee82ee;
-    height: 300px;
 }
 
 /* Second section */
