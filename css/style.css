@@ -25,10 +25,23 @@ body {
     width: 80%;
  }
 
+ .bg-grey {
+    background-color: #F6F6F6;
+}
+
+.divider {
+    fill: #F6F6F6;
+    display: block;
+}
+
+.upside-down {
+    transform: rotate(180deg);
+}
+
+ /* BUTTONS */
 .btn {
-    height: 2rem;
+
     text-decoration: none;
-    line-height: 2rem;
     padding: .6rem;
     border-radius: 30px;
 }
@@ -48,18 +61,6 @@ body {
     color: white;
 }
 
-.bg-grey {
-    background-color: #F6F6F6;
-}
-
-.divider {
-    fill: #F6F6F6;
-    margin-bottom: -5px;
-}
-
-.upside-down {
-    transform: rotate(180deg);
-}
 
 /* HEADER */
 .header-top {
@@ -212,10 +213,15 @@ section {
     width: 15px;
 }
 
-.fa-brands {
-    margin: 1rem 1rem 0 0;
+.icons {
+    margin-top: 1rem;
+}
+
+.icons a {
+    margin-right: 1rem;
     font-size: 1rem;
     color: white;
+    text-decoration: none;
 }
 
 .footer-nav li{
@@ -233,7 +239,7 @@ section {
     font-size: 0.7rem;
 }
 
-li> h3 {
+li> h4 {
     color: #7289DA;
 }
 
